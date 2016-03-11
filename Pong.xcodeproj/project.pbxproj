@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5D875AE1C932B7D00FD5B68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D875AD1C932B7D00FD5B68 /* AppDelegate.swift */; };
+		A5D875B71C932B7D00FD5B68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D875B51C932B7D00FD5B68 /* Main.storyboard */; };
+		A5D875B91C932B7D00FD5B68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D875B81C932B7D00FD5B68 /* Assets.xcassets */; };
+		A5D875BC1C932B7D00FD5B68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D875BA1C932B7D00FD5B68 /* LaunchScreen.storyboard */; };
+		A5ECC3001C932C24001A3A69 /* PongScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A5ECC2FF1C932C24001A3A69 /* PongScene.sks */; };
+		A5ECC3061C932C8C001A3A69 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ECC3031C932C8C001A3A69 /* GameViewController.swift */; };
+		A5ECC3071C932C8C001A3A69 /* PongScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ECC3051C932C8C001A3A69 /* PongScene.swift */; };
+		A5ECC30B1C932F85001A3A69 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A5ECC30A1C932F85001A3A69 /* GameOverScene.sks */; };
+		A5ECC30D1C933026001A3A69 /* PongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ECC30C1C933026001A3A69 /* PongController.swift */; };
+		A5ECC30F1C9330AD001A3A69 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ECC30E1C9330AD001A3A69 /* GameOverScene.swift */; };
+		A5ECC3171C9366A1001A3A69 /* AmbientMusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5ECC3111C9366A1001A3A69 /* AmbientMusic.wav */; };
+		A5ECC3181C9366A1001A3A69 /* Lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5ECC3121C9366A1001A3A69 /* Lose.mp3 */; };
+		A5ECC3191C9366A1001A3A69 /* LosePoint.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5ECC3131C9366A1001A3A69 /* LosePoint.mp3 */; };
+		A5ECC31A1C9366A1001A3A69 /* PaddleHit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5ECC3141C9366A1001A3A69 /* PaddleHit.mp3 */; };
+		A5ECC31B1C9366A1001A3A69 /* Win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5ECC3151C9366A1001A3A69 /* Win.mp3 */; };
+		A5ECC31C1C9366A1001A3A69 /* WinPoint.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5ECC3161C9366A1001A3A69 /* WinPoint.mp3 */; };
+		A5ECC31E1C9373C0001A3A69 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5ECC31D1C9373C0001A3A69 /* Helpers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5D875AA1C932B7D00FD5B68 /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D875AD1C932B7D00FD5B68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5D875B61C932B7D00FD5B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5D875B81C932B7D00FD5B68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5D875BB1C932B7D00FD5B68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5D875BD1C932B7D00FD5B68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5ECC2FF1C932C24001A3A69 /* PongScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PongScene.sks; sourceTree = "<group>"; };
+		A5ECC3031C932C8C001A3A69 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A5ECC3051C932C8C001A3A69 /* PongScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PongScene.swift; sourceTree = "<group>"; };
+		A5ECC30A1C932F85001A3A69 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		A5ECC30C1C933026001A3A69 /* PongController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PongController.swift; sourceTree = "<group>"; };
+		A5ECC30E1C9330AD001A3A69 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		A5ECC3111C9366A1001A3A69 /* AmbientMusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AmbientMusic.wav; sourceTree = "<group>"; };
+		A5ECC3121C9366A1001A3A69 /* Lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lose.mp3; sourceTree = "<group>"; };
+		A5ECC3131C9366A1001A3A69 /* LosePoint.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LosePoint.mp3; sourceTree = "<group>"; };
+		A5ECC3141C9366A1001A3A69 /* PaddleHit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = PaddleHit.mp3; sourceTree = "<group>"; };
+		A5ECC3151C9366A1001A3A69 /* Win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Win.mp3; sourceTree = "<group>"; };
+		A5ECC3161C9366A1001A3A69 /* WinPoint.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WinPoint.mp3; sourceTree = "<group>"; };
+		A5ECC31D1C9373C0001A3A69 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5D875A71C932B7D00FD5B68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5D875A11C932B7D00FD5B68 = {
+			isa = PBXGroup;
+			children = (
+				A5D875AC1C932B7D00FD5B68 /* Pong */,
+				A5D875AB1C932B7D00FD5B68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5D875AB1C932B7D00FD5B68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5D875AA1C932B7D00FD5B68 /* Pong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5D875AC1C932B7D00FD5B68 /* Pong */ = {
+			isa = PBXGroup;
+			children = (
+				A5ECC3101C9366A1001A3A69 /* Sounds */,
+				A5ECC3011C932C8C001A3A69 /* Classes */,
+				A5ECC2FE1C932C24001A3A69 /* Scenes */,
+				A5D875AD1C932B7D00FD5B68 /* AppDelegate.swift */,
+				A5D875B51C932B7D00FD5B68 /* Main.storyboard */,
+				A5D875B81C932B7D00FD5B68 /* Assets.xcassets */,
+				A5D875BA1C932B7D00FD5B68 /* LaunchScreen.storyboard */,
+				A5D875BD1C932B7D00FD5B68 /* Info.plist */,
+			);
+			path = Pong;
+			sourceTree = "<group>";
+		};
+		A5ECC2FE1C932C24001A3A69 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A5ECC30A1C932F85001A3A69 /* GameOverScene.sks */,
+				A5ECC2FF1C932C24001A3A69 /* PongScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A5ECC3011C932C8C001A3A69 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5ECC3021C932C8C001A3A69 /* Controllers */,
+				A5ECC3041C932C8C001A3A69 /* Scenes */,
+				A5ECC31D1C9373C0001A3A69 /* Helpers.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A5ECC3021C932C8C001A3A69 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5ECC3031C932C8C001A3A69 /* GameViewController.swift */,
+				A5ECC30C1C933026001A3A69 /* PongController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A5ECC3041C932C8C001A3A69 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				A5ECC3051C932C8C001A3A69 /* PongScene.swift */,
+				A5ECC30E1C9330AD001A3A69 /* GameOverScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A5ECC3101C9366A1001A3A69 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A5ECC3111C9366A1001A3A69 /* AmbientMusic.wav */,
+				A5ECC3121C9366A1001A3A69 /* Lose.mp3 */,
+				A5ECC3131C9366A1001A3A69 /* LosePoint.mp3 */,
+				A5ECC3141C9366A1001A3A69 /* PaddleHit.mp3 */,
+				A5ECC3151C9366A1001A3A69 /* Win.mp3 */,
+				A5ECC3161C9366A1001A3A69 /* WinPoint.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5D875A91C932B7D00FD5B68 /* Pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5D875C01C932B7D00FD5B68 /* Build configuration list for PBXNativeTarget "Pong" */;
+			buildPhases = (
+				A5D875A61C932B7D00FD5B68 /* Sources */,
+				A5D875A71C932B7D00FD5B68 /* Frameworks */,
+				A5D875A81C932B7D00FD5B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pong;
+			productName = Pong;
+			productReference = A5D875AA1C932B7D00FD5B68 /* Pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5D875A21C932B7D00FD5B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Josh Kay";
+				TargetAttributes = {
+					A5D875A91C932B7D00FD5B68 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A5D875A51C932B7D00FD5B68 /* Build configuration list for PBXProject "Pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5D875A11C932B7D00FD5B68;
+			productRefGroup = A5D875AB1C932B7D00FD5B68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5D875A91C932B7D00FD5B68 /* Pong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5D875A81C932B7D00FD5B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5ECC3191C9366A1001A3A69 /* LosePoint.mp3 in Resources */,
+				A5ECC3001C932C24001A3A69 /* PongScene.sks in Resources */,
+				A5ECC31A1C9366A1001A3A69 /* PaddleHit.mp3 in Resources */,
+				A5ECC31B1C9366A1001A3A69 /* Win.mp3 in Resources */,
+				A5ECC3181C9366A1001A3A69 /* Lose.mp3 in Resources */,
+				A5ECC31C1C9366A1001A3A69 /* WinPoint.mp3 in Resources */,
+				A5D875BC1C932B7D00FD5B68 /* LaunchScreen.storyboard in Resources */,
+				A5D875B91C932B7D00FD5B68 /* Assets.xcassets in Resources */,
+				A5ECC3171C9366A1001A3A69 /* AmbientMusic.wav in Resources */,
+				A5ECC30B1C932F85001A3A69 /* GameOverScene.sks in Resources */,
+				A5D875B71C932B7D00FD5B68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5D875A61C932B7D00FD5B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5ECC30F1C9330AD001A3A69 /* GameOverScene.swift in Sources */,
+				A5ECC31E1C9373C0001A3A69 /* Helpers.swift in Sources */,
+				A5ECC3071C932C8C001A3A69 /* PongScene.swift in Sources */,
+				A5ECC3061C932C8C001A3A69 /* GameViewController.swift in Sources */,
+				A5D875AE1C932B7D00FD5B68 /* AppDelegate.swift in Sources */,
+				A5ECC30D1C933026001A3A69 /* PongController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5D875B51C932B7D00FD5B68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D875B61C932B7D00FD5B68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5D875BA1C932B7D00FD5B68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5D875BB1C932B7D00FD5B68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5D875BE1C932B7D00FD5B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5D875BF1C932B7D00FD5B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5D875C11C932B7D00FD5B68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshkay.Pong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5D875C21C932B7D00FD5B68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pong/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joshkay.Pong;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D875A51C932B7D00FD5B68 /* Build configuration list for PBXProject "Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D875BE1C932B7D00FD5B68 /* Debug */,
+				A5D875BF1C932B7D00FD5B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5D875C01C932B7D00FD5B68 /* Build configuration list for PBXNativeTarget "Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5D875C11C932B7D00FD5B68 /* Debug */,
+				A5D875C21C932B7D00FD5B68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5D875A21C932B7D00FD5B68 /* Project object */;
+}
